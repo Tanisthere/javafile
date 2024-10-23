@@ -1,4 +1,8 @@
 Docker file code :
+inside a folder create a subfolder named "java-docker-img " and inside it first make "sample.java file" ; compile it and keep its "class file" also inside it.
+
+javac sample.java
+java sample
 
 FROM openjdk
 WORKDIR /app
