@@ -1,0 +1,10 @@
+Basic Docker Command:
+
+i) docker -v
+ii) Pull image form docker hub : docker pull hello-world
+iii) To run the image and create container : docker run hello-world
+iv) docker images : list the locally available docker image on machine
+v) docker ps -a: shows the list of all running containers
+vi) docker push: Pushes docker image to docker registry
+vii) Check vipuls invisible224 GitHub
+viii) docker start : starts one or more stopped container
