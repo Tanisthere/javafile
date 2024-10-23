@@ -1,0 +1,14 @@
+Docker file code :
+
+FROM openjdk
+WORKDIR /app
+COPY . /app
+RUN javac sample.java
+CMD ["java","sample"]
+
+Commands to run in VS terminal:
+
+i) docker build -t myjavaapp . {my javaapp is name of docker image }
+ii) Open cmd and search : docker images  
+iii) To run the image to build container : docker run --name Mycontainer
+iv) To check name of container and image : docker ps -a
